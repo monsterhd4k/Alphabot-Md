@@ -34,15 +34,15 @@ global.owner = ["595985770265"] //ganti agar fitur owner bisa di gunakan
 global.packname = 'ㅤ' //sticker wm ubah
 global.author = 'ㅤ' //sticker wm ganti nama kalian
 global.sessionName = 'session'
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&fontname=Teko+Bold&&shadowType=0&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%2309bbde&fillColor2Color=%2309bbde&fillColor3Color=%2309bbde&fillColor4Color=%2309bbde&fillColor5Color=%2309bbde&fillColor6Color=%2309bbde&fillColor7Color=%2309bbde&fillColor8Color=%2309bbde&fillColor9Color=%2309bbde&fillColor10Color=%2309bbde&fillOutlineColor=%2309bbde&fillOutline2Color=%2309bbde&backgroundColor=%23000&text='
+global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&fontname=Teko+Bold&&shadowType=0&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%2309bbde&fillColor2Color=%2309bbde&fillColor3Color=%2309bbde&fillColor4Color=%2309bbde&fillColor5Color=%2309bbde&fillColor6Color=%2309bbde&fillColor7Color=%2309bbde&fillColor8Color=%2309bbde&fillColor9Color=%2309bbde&fillColor10Color=%2309bbde&fillOutlineColor=%2309bbde&fillOutline2Color=%2309bbde&backgroundColor=%23000&text='
+global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&fontname=Teko+Bold&&shadowType=0&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%2309bbde&fillColor2Color=%2309bbde&fillColor3Color=%2309bbde&fillColor4Color=%2309bbde&fillColor5Color=%2309bbde&fillColor6Color=%2309bbde&fillColor7Color=%2309bbde&fillColor8Color=%2309bbde&fillColor9Color=%2309bbde&fillColor10Color=%2309bbde&fillOutlineColor=%2309bbde&fillOutline2Color=%2309bbde&backgroundColor=%23000&text='
+global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&fontname=Teko+Bold&&shadowType=0&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%2309bbde&fillColor2Color=%2309bbde&fillColor3Color=%2309bbde&fillColor4Color=%2309bbde&fillColor5Color=%2309bbde&fillColor6Color=%2309bbde&fillColor7Color=%2309bbde&fillColor8Color=%2309bbde&fillColor9Color=%2309bbde&fillColor10Color=%2309bbde&fillOutlineColor=%2309bbde&fillOutline2Color=%2309bbde&backgroundColor=%23000&text='
 
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '✅Hecho~',
+    sukses: '✅ Hecho~',
     admin: 'Este comando solo puede ser utilizado por el administrador !',
     botAdmin: 'Este comando solo se puede usar cuando el bot se convierta en administrador !',
     owner: 'Este comando solo puede ser utilizado por el propietario !',
