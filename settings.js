@@ -19,7 +19,7 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "© Monster-Bot" //namabot kalian
-global.ownername= "monsterhd4k" //nama kalian
+global.ownername= "© Monster-Bot" //nama kalian
 global.myweb ="https://api-alphabot.herokuapp.com/" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
@@ -42,15 +42,15 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '✅ Hecho~',
-    admin: 'Este comando solo puede ser utilizado por el administrador !',
-    botAdmin: 'Este comando solo se puede usar cuando el bot se convierta en administrador !',
-    owner: 'Este comando solo puede ser utilizado por el propietario !',
-    group: 'Este comando solo se puede usar en grupos. !',
-    private: 'Este comando solo se puede usar en privado. !',
-	bot: 'Funciones especiales del usuario del número de bot',
-    errtoimg: 'Lo siento, actualmente no es compatible con Sticker Gif !',
-    wait: '⏳ Espere un momento...',
+    sukses: '[✅] Hecho.',
+    admin: '[❌] Este comando solo puede ser utilizado por el administrador !',
+    botAdmin: '[❌] Este comando solo se puede usar cuando el bot se convierta en administrador !',
+    owner: '[❌] Este comando solo puede ser utilizado por el propietario !',
+    group: '[❌] Este comando solo se puede usar en grupos. !',
+    private: '[❌] Este comando solo se puede usar en privado. !',
+	bot: '[❌] Funciones especiales del usuario del número de bot',
+    errtoimg: '[❌] Lo siento, actualmente no es compatible con Sticker Gif !',
+    wait: '[⏳] Espere un momento...',
 	lockCmd: 'Funciones no activadas por el propietario!',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
