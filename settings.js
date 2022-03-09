@@ -20,8 +20,8 @@ global.available = false //status online (online)
 // Other
 global.botname = "© Monster-Bot" //namabot kalian
 global.ownername= "© Monster-Bot" //nama kalian
-global.myweb ="https://api-alphabot.herokuapp.com/" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
+global.myweb ="https://www.youtube.com/watch?v=dQw4w9WgXcQ" //bebas asal jan hapus
+global.youtube = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
 global.email = "zeeoneofc@gmail.com" //bebas
 global.region = "Indonesia" //bebas
