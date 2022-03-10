@@ -1,56 +1,56 @@
 exports.private = () =>{
-	return` ```La función solo se puede usar en el chat privado ``` `
+	return`La función solo se puede usar en el chat privado`
 	}
 exports.wait = () => {
-    return ` ```⏳ Espere un momento...``` `
+    return `⏳ Espere un momento... `
 }
 exports.ok = () => {
-    return ` ```✅ Hecho``` `
+    return `✅ Hecho `
 }
 
 exports.err = () => {
-    return ` ```⚠️ Error``` `
+    return `⚠️ Error`
 }
 exports.erorLink = () => {
-    return ` ```⚠️ Enlace incorrecto``` `
+    return `⚠️ Enlace incorrecto`
 }
 exports.media = () => {
-    return ` ```Seleccione los medios que desea descargar``` `
+    return `Seleccione los medios que desea descargar`
 }
 exports.replyImg = (prefix, command) => {
-    return ` ```Enviar/responder foto con ${prefix + command}``` `
+    return `Enviar/responder foto con ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return ` ```❌ Formato incorrecto, Por favor verifique cómo usar en *${prefix}allmenu*``` `
+    return `❌ Formato incorrecto, Por favor verifique cómo usar en *${prefix}allmenu*`
 }
 
 exports.emptyMess = () => {
-    return ` ```❌ Por favor ingrese un mensaje!``` `
+    return `❌ Por favor ingrese un mensaje!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return ` ```❌ El comando *${cmd}* no está registrado en *${prefix}allmenu*``` `
+    return `❌ El comando *${cmd}* no está registrado en *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return ` ```❌ Este comando es solo para el dueño!``` `
+    return `❌ Este comando es solo para el dueño!`
 }
 
 exports.doneOwner = () => {
-    return ` ```✅ Hecho.``` `
+    return `✅ Hecho`
 }
 
 exports.groupOnly = () => {
-    return ` ```❌ Este comando solo se puede usar en grupos.!``` `
+    return `❌ Este comando solo se puede usar en grupos.!`
 }
 
 exports.adminOnly = () => {
-    return ` ```❌ Este comando solo puede ser utilizado por administradores de grupo!``` `
+    return `❌ Este comando solo puede ser utilizado por administradores de grupo!`
 }
 
 exports.nhFalse = () => {
-    return ` ```❌ Codigo invalido!``` `
+    return `❌ Codigo invalido!`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -60,15 +60,15 @@ Total : *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return ` ```❌ El usuario no es un administrador!``` `
+    return `❌ El usuario no es un administrador!`
 }
 
 exports.adminAlready = () => {
-    return ` ```❌ No se puede promocionar a un usuario que es administrador!``` `
+    return `❌ No se puede promocionar a un usuario que es administrador!`
 }
 
 exports.botNotAdmin = () => {
-    return ` ```❌ Debes hacer administrador al bot primero!``` `
+    return `❌ Debes hacer administrador al bot primero!`
 }
 
 exports.received = (pushname) => {
@@ -78,7 +78,7 @@ Gracias por informar, pronto recibiremos su informe`
 }
 
 exports.videoLimit = () => {
-    return ` ```❌ El tamaño del archivo es demasiado grande!``` `
+    return `❌ El tamaño del archivo es demasiado grande!`
 }
 
 exports.notNum = (q) => {
