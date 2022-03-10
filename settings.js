@@ -19,7 +19,7 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "© Monster-Bot" //namabot kalian
-global.ownername= "© Monster-Bot" //nama kalian
+global.ownername= "Monster-Bot" //nama kalian
 global.myweb ="https://www.youtube.com/watch?v=dQw4w9WgXcQ" //bebas asal jan hapus
 global.youtube = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
