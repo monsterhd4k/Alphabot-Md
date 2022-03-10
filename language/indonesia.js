@@ -1,21 +1,21 @@
 exports.private = () =>{
-	return`La función solo se puede usar en el chat privado`
+	return`⚠️  𝙇𝙖 𝙛𝙪𝙣𝙘𝙞𝙤𝙣 𝙨𝙤𝙡𝙤 𝙨𝙚 𝙥𝙪𝙚𝙙𝙚 𝙪𝙨𝙖𝙧 𝙚𝙣 𝙚𝙡 𝙘𝙝𝙖𝙩 𝙥𝙧𝙞𝙫𝙖𝙙𝙤`
 	}
 exports.wait = () => {
-    return `⏳ Espere un momento... `
+    return `⏳  𝙀𝙨𝙥𝙚𝙧𝙚 𝙪𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙤...`
 }
 exports.ok = () => {
-    return `✅ Hecho `
+    return `✅  𝙃𝙚𝙘𝙝𝙤`
 }
 
 exports.err = () => {
-    return `⚠️ Error`
+    return `❌  𝙀𝙧𝙧𝙤𝙧`
 }
 exports.erorLink = () => {
-    return `⚠️ Enlace incorrecto`
+    return `❌   𝙀𝙣𝙡𝙖𝙘𝙚 𝙄𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤`
 }
 exports.media = () => {
-    return `Seleccione los medios que desea descargar`
+    return `𝙎𝙚𝙡𝙚𝙘𝙘𝙞𝙤𝙣𝙚 𝙡𝙤𝙨 𝙢𝙚𝙙𝙞𝙤𝙨 𝙦𝙪𝙚 𝙙𝙚𝙨𝙚𝙖 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧`
 }
 exports.replyImg = (prefix, command) => {
     return `Enviar/responder foto con ${prefix + command}`
