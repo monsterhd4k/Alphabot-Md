@@ -42,16 +42,16 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '```✅ Hecho```',
-    admin: '```❌ Este comando solo puede ser utilizado por el administrador```',
-    botAdmin: '```❌ Este comando solo se puede usar cuando el bot se convierta en administrador```',
-    owner: '```❌ Este comando solo puede ser utilizado por el propietario```',
-    group: '```❌ Este comando solo se puede usar en grupos```',
-    private: '```❌ Este comando solo se puede usar en privado```',
-	bot: '```❌ Funciones especiales del usuario del número de bot```',
-    errtoimg: '```❌ Lo siento, actualmente no es compatible con Sticker Gif```',
-    wait: '```⏳ Espere un momento...```',
-	lockCmd: '```Funciones no activadas por el propietario```',
+    sukses: '✅ Hecho',
+    admin: '❌ Este comando solo puede ser utilizado por el administrador',
+    botAdmin: '❌ Este comando solo se puede usar cuando el bot se convierta en administrador',
+    owner: '❌ Este comando solo puede ser utilizado por el propietario',
+    group: '❌ Este comando solo se puede usar en grupos',
+    private: '❌ Este comando solo se puede usar en privado',
+	bot: '❌ Funciones especiales del usuario del número de bot',
+    errtoimg: '❌ Lo siento, actualmente no es compatible con Sticker Gif',
+    wait: '⏳ Espere un momento...',
+	lockCmd: 'Funciones no activadas por el propietario',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 
