@@ -2,7 +2,7 @@ exports.private = () =>{
 	return` ```La función solo se puede usar en el chat privado ``` `
 	}
 exports.wait = () => {
-    return ` ```⏳Espere un momento...``` `
+    return ` ```⏳ Espere un momento...``` `
 }
 exports.ok = () => {
     return ` ```✅ Hecho``` `
