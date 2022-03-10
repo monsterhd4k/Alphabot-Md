@@ -1597,104 +1597,104 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Reglas","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `` + '' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Reglas","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
 		var ownercmd = await getBuffer(picak+'Informacion del Bot')
-		await alpha.send5ButLoc(from, `` + '\n\n' +  lang.info(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+		await alpha.send5ButLoc(from, `` + '' +  lang.info(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
       }
   break 
 	case 'ownercmd': case'ownermenu':{
 		var ownercmd = await getBuffer(picak+'Dueño')
-		await alpha.send5ButLoc(from, `` + '\n\n' +  lang.ownermenu(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+		await alpha.send5ButLoc(from, `` + '' +  lang.ownermenu(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
       }
   break 
   case 'databasecmd': case'databasemenu':{
 		var ownercmd = await getBuffer(picak+'Base de Datos')
-		await alpha.send5ButLoc(from, `` + '\n\n' +  lang.database(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+		await alpha.send5ButLoc(from, `` + '' +  lang.database(prefix) , `© ${ownername}`,ownercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
       }
   break 
   case 'groupcmd': case 'groupmenu':
  var groupcmd = await getBuffer(picak+'Menu de Grupo')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.group(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.group(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break       
     case 'animecmd': case 'animemenu':
  var animecmd = await getBuffer(picak+'Menu de Anime')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.anime(prefix) , `© ${ownername}`,animecmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.anime(prefix) , `© ${ownername}`,animecmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
             case 'tagcmd': case 'tagmenu':
  var groupcmd = await getBuffer(picak+'Menu de Tag')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.tag(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.tag(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'stalkcmd': case 'stalkmenu':
  var groupcmd = await getBuffer(picak+'Menu Stalkear')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.stalk(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.stalk(prefix) , `© ${ownername}`,groupcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         
         case 'searchcmd': case 'searchmenu':{
  var searchcmd = await getBuffer(picak+'Menu de Busqueda')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.search(prefix) , `© ${ownername}`,searchcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.search(prefix) , `© ${ownername}`,searchcmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
       }
   break 
         case 'convertercmd': case 'convertmenu':
  var convertercmd = await getBuffer(picak+'Menu de Conversion')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.converter(prefix) , `© ${ownername}`,convertercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.converter(prefix) , `© ${ownername}`,convertercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'stickercmd': case 'stickermenu':
  var stickercmd = await getBuffer(picak+'Efecto de Imagenes')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.effect(prefix) , `© ${ownername}`,stickercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.effect(prefix) , `© ${ownername}`,stickercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'stickercmd2': case 'stickermenu2':
  var stickercmd = await getBuffer(picak+'Efectos de Sticker')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.effect2(prefix) , `© ${ownername}`,stickercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.effect2(prefix) , `© ${ownername}`,stickercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'downloadercmd': case 'downloadmenu':
  var downloadercmd = await getBuffer(picak+'Menu de Descargas')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.download(prefix) , `© ${ownername}`,downloadercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.download(prefix) , `© ${ownername}`,downloadercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'ranimecmd': case 'animemenu':
  var ranimecmd = await getBuffer(picak+'Anime Random')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.ranime(prefix) , `© ${ownername}`,ranimecmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.ranime(prefix) , `© ${ownername}`,ranimecmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'nsfwcmd': case 'nsfwcommand':{
  var thanksto = await getBuffer(picak+'Menu NSFW/+18')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.nsfw(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.nsfw(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         }
 break 
 case 'textprocmd': case 'textpromenu':
  var textprocmd = await getBuffer(picak+'Menu TextPro')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.textpro(prefix) , `© ${ownername}`,textprocmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.textpro(prefix) , `© ${ownername}`,textprocmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'othercmd': case 'othermenu':
  var othercmd = await getBuffer(picak+'Menu Variado')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.other(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.other(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'gamecmd': case 'gamemenu':
  var othercmd = await getBuffer(picak+'Menu de Juegos')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.game(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.game(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'asupancmd': case 'asupanmenu':
  var othercmd = await getBuffer(picak+'Menu de Consumo')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.asupan(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.asupan(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'cecancmd': case 'cecanmenu':
  var othercmd = await getBuffer(picak+'Menu Cecan')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.cecan(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.cecan(prefix) , `© ${ownername}`,othercmd, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         break 
         case 'primbonmenu': case 'primboncmd':{
  var thanksto = await getBuffer(picak+'Menu de Horoscopo')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.primbonmenu(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.primbonmenu(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         }
 break 
         case 'telestc': case 'telecmd':{
  var thanksto = await getBuffer(picak+'Telegram Sticker')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.stcmenu(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.stcmenu(prefix) , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         }
 break 
 case 'thanksto': case 'tqto':{
  var thanksto = await getBuffer(picak+'Contribuidores')
- await alpha.send5ButLoc(from, `` + '\n\n' +  lang.tqto() , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
+ await alpha.send5ButLoc(from, `` + '' +  lang.tqto() , `© ${ownername}`,thanksto, [{"urlButton": {"displayText": "Canal de YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Bot Tutorial","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donar","id": 'donate'}},{"quickReplyButton": {"displayText": "Dueño","id": 'owner'}},{"quickReplyButton": {"displayText": "Regresar a la lista","id": 'command'}}] )
         }
 break 
 case 'take':case 'wm':{
