@@ -18,39 +18,39 @@ exports.media = () => {
     return `𝙎𝙚𝙡𝙚𝙘𝙘𝙞𝙤𝙣𝙚 𝙡𝙤𝙨 𝙢𝙚𝙙𝙞𝙤𝙨 𝙦𝙪𝙚 𝙙𝙚𝙨𝙚𝙖 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧`
 }
 exports.replyImg = (prefix, command) => {
-    return `Enviar/responder foto con ${prefix + command}`
+    return `𝙀𝙣𝙫𝙞𝙖𝙧/𝙧𝙚𝙨𝙥𝙤𝙣𝙙𝙚𝙧 𝙛𝙤𝙩𝙤 𝙘𝙤𝙣 ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `❌ Formato incorrecto, Por favor verifique cómo usar en *${prefix}allmenu*`
+    return `❌ 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤, 𝙋𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙫𝙚𝙧𝙞𝙛𝙞𝙦𝙪𝙚 𝙘𝙤𝙢𝙤 𝙪𝙨𝙖𝙧 𝙚𝙣 *${prefix}allmenu*`
 }
 
 exports.emptyMess = () => {
-    return `❌ Por favor ingrese un mensaje!`
+    return `❌𝙋𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙞𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙢𝙚𝙣𝙨𝙖𝙟𝙚!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❌ El comando *${cmd}* no está registrado en *${prefix}allmenu*`
+    return `❌ 𝙀𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 *${cmd}* 𝙣𝙤 𝙚𝙨𝙩𝙖 𝙧𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙙𝙤 𝙚𝙣 *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❌ Este comando es solo para el dueño!`
+    return `❌ 𝙀𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙚𝙨 𝙨𝙤𝙡𝙤 𝙥𝙖𝙧𝙖 𝙚𝙡 𝙙𝙪𝙚ñ𝙤!`
 }
 
 exports.doneOwner = () => {
-    return `✅ Hecho`
+    return `✅ 𝙃𝙚𝙘𝙝𝙤`
 }
 
 exports.groupOnly = () => {
-    return `❌ Este comando solo se puede usar en grupos.!`
+    return `❌ 𝙀𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙨𝙤𝙡𝙤 𝙨𝙚 𝙥𝙪𝙚𝙙𝙚 𝙪𝙨𝙖𝙧 𝙚𝙣 𝙜𝙧𝙪𝙥𝙤𝙨`
 }
 
 exports.adminOnly = () => {
-    return `❌ Este comando solo puede ser utilizado por administradores de grupo!`
+    return `❌ 𝙀𝙨𝙩𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙨𝙤𝙡𝙤 𝙥𝙪𝙚𝙙𝙚 𝙨𝙚𝙧 𝙪𝙩𝙞𝙡𝙞𝙯𝙖𝙙𝙤 𝙥𝙤𝙧 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧𝙚𝙨 𝙙𝙚 𝙜𝙧𝙪𝙥𝙤`
 }
 
 exports.nhFalse = () => {
-    return `❌ Codigo invalido!`
+    return `❌ 𝘾𝙤𝙙𝙞𝙜𝙤 𝙞𝙣𝙫𝙖𝙡𝙞𝙙𝙤`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -60,15 +60,15 @@ Total : *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❌ El usuario no es un administrador!`
+    return `❌ 𝙀𝙡 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙣𝙤 𝙚𝙨 𝙪𝙣 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧`
 }
 
 exports.adminAlready = () => {
-    return `❌ No se puede promocionar a un usuario que es administrador!`
+    return `❌ 𝙉𝙤 𝙨𝙚 𝙥𝙪𝙚𝙙𝙚 𝙥𝙧𝙤𝙢𝙤𝙘𝙞𝙤𝙣𝙖𝙧 𝙖 𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙦𝙪𝙚 𝙚𝙨 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧`
 }
 
 exports.botNotAdmin = () => {
-    return `❌ Debes hacer administrador al bot primero!`
+    return `❌ 𝘿𝙚𝙗𝙚𝙨 𝙝𝙖𝙘𝙚𝙧 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧 𝙖𝙡 𝙗𝙤𝙩 𝙥𝙧𝙞𝙢𝙚𝙧𝙤`
 }
 
 exports.received = (pushname) => {
@@ -78,7 +78,7 @@ Gracias por informar, pronto recibiremos su informe`
 }
 
 exports.videoLimit = () => {
-    return `❌ El tamaño del archivo es demasiado grande!`
+    return `❌ 𝙀𝙡 𝙩𝙖𝙢𝙖ñ𝙤 𝙙𝙚𝙡 𝙖𝙧𝙘𝙝𝙞𝙫𝙤 𝙚𝙨 𝙙𝙚𝙢𝙖𝙨𝙞𝙖𝙙𝙤 𝙜𝙧𝙖𝙣𝙙𝙚`
 }
 
 exports.notNum = (q) => {
@@ -87,9 +87,9 @@ exports.notNum = (q) => {
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hola *${pushname}* 👋🏻 
 	
-Este es un bot para Whatsapp Beta para múltiples dispositivos.
-Si encuentra algún tipo de error o falla, por favor comprenda,
-reporta al dueño para que se arregle inmediatamente.     
+👨🏻‍💻 Este es un bot para Whatsapp Beta para múltiples dispositivos.
+
+📡 Version: 5.0.0 - Public Edition
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -97,6 +97,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 *© Monster-Bot*
 *Version: 5.0.0*
+
 
  *『 Informacion del Bot 』* 
 ➣ ${prefix}owner
@@ -134,6 +135,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ➣ ${prefix}public [solo el bot]
 ➣ ${prefix}del [responde a mensaje del bot]
 ➣ ${prefix}setppbot [responde a imagen]
+
 
  *『 Menu de Grupo 』* 
 ➣ ${prefix}listonline
